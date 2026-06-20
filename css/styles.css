@@ -16,6 +16,11 @@ body {
   top: 0;
 }
 
+.navbar img{
+	width:10%;
+	margin-right:-350px;
+}
+
 .navbar .logo {
   font-size: 40px;
   font-weight: bold;
@@ -26,6 +31,13 @@ body {
   margin: 0 10px;
   color: white;
   text-decoration: none;
+  background-color: orange;
+  padding:10px;
+  border-radius:8px;
+}
+
+.navbar nav a:hover{
+	color: black;
 }
 
 .lang-switch button {
@@ -121,7 +133,6 @@ body {
 .card img {
   width: 60px;
   height: 60px;
-  
 }
 
 .dark-cardhtml {
